@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{297f61d4-e99d-47c3-b43b-455a02028b92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Triggers">
+      <UniqueIdentifier>{92b1f446-ab0b-455d-90dd-96afb9b6b4d4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Entities\SampleActor.cpp" ><Filter>Entities</Filter></ClCompile>
+    <ClCompile Include="Entities\SampleEntity.cpp" ><Filter>Entities</Filter></ClCompile>
+    <ClCompile Include="Entities\SampleSolid.cpp" ><Filter>Entities</Filter></ClCompile>
+    <ClCompile Include="Triggers\SampleTrigger.cpp" ><Filter>Triggers</Filter></ClCompile>
+    <ClCompile Include="VeryCelestialModModule.cpp" ></ClCompile>
+    <ClCompile Include="VeryCelestialModSaveData.cpp" ></ClCompile>
+    <ClCompile Include="VeryCelestialModSession.cpp" ></ClCompile>
+    <ClCompile Include="VeryCelestialModSettings.cpp" ></ClCompile>
+  </ItemGroup>
+</Project>
